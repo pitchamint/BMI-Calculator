@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/02/13/19/fitness-5250916_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    width: 30rem;
+    max-width: 800px;
+    background: #80cbc4;
+    padding: 1rem;
+    border-radius: 10px;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+form{
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+form>*{
+    padding-bottom: 1.3rem;
+}
+input,button{
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+}
+.btn{
+    background: #29b6f6;
+    cursor: pointer;
+    outline: none;
+}
+.result{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.7rem;
+    border-radius: 10px;
+}
